@@ -1,16 +1,9 @@
-# Viper OTA
+# EcemOTA
 ### Based on Lineage/CyanogenMod ota app
 
 ## How to use?
-- Add this to our vendor:
+- Add this to your system.prop in device tree:
 ```
-# Essential OTA Config
-PRODUCT_PACKAGES += \
-    ViperOTA
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ota.build.date=$(shell date +%Y%m%d)
-
 # Device specific
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.ota.manifest=https://raw.githubusercontent.com/PureNexusProject-Mod/OTA_server/master/device_name.json
