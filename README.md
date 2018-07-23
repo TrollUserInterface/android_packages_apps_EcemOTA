@@ -6,7 +6,7 @@
 ```
 # Device specific
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.ota.manifest=https://raw.githubusercontent.com/PureNexusProject-Mod/OTA_server/master/device_name.json
+ro.ota.manifest=https://raw.githubusercontent.com/EcemUserInterface/OTA/master/device_name.json
 ```
 # Libraries and thanks
 - MarkdownView-Android by [@mukeshsolanki](https://github.com/mukeshsolanki) (https://github.com/mukeshsolanki/MarkdownView-Android)
