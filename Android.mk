@@ -29,7 +29,7 @@ LOCAL_RESOURCE_DIR := \
     $(TOP)/frameworks/support/v7/recyclerview/res \
     $(LOCAL_PATH)/res
 
-# Viper Color Engine
+# Ecem Color Engine
 $(warning *** Including EcemUI Color Engine ***)
 LOCAL_RESOURCE_DIR += vendor/ecem/colorengine/$(LOCAL_PATH)/res
 
@@ -42,7 +42,7 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.recyclerview \
     --extra-packages android.support.v7.cardview
 
-LOCAL_PACKAGE_NAME := ViperOTA
+LOCAL_PACKAGE_NAME := EcemOTA
 
 LOCAL_PROGUARD_FLAGS := -include $(LOCAL_PATH)/proguard.flags
 
